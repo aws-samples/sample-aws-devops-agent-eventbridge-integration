@@ -1,0 +1,10 @@
+{
+  "name": "jira-issue-creator",
+  "version": "1.0.0",
+  "description": "Lambda function to create Jira issues and add comments from DevOps Agent investigation lifecycle events",
+  "main": "index.js",
+  "dependencies": {
+    "@aws-sdk/client-devops-agent": "3.1072.0",
+    "@aws-sdk/client-dynamodb": "3.1073.0"
+  }
+}
